@@ -47,19 +47,17 @@ export default function StudentLayout({
               <strong className="font-semibold  text-lg sm:text-base">
                 Hi Akseli! 👋{" "}
               </strong>
-            </p>
-            <button className="">
-              <span className="inline-block mr-1">Your next class is on</span>
-              <span className="font-bold underline text-purple-700 inline-block">
-                Monday at 5:00 PM
+              Your next payment is due on the{" "}
+              <span className="font-bold underline text-purple-700 mr-2">
+                19th
               </span>
-            </button>
-            <a
-              href="#"
-              className="flex-none rounded-full px-3.5 py-1 text-sm font-semibold text-black border-purple-400  border-2 shadow-sm hover:bg-purple-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900"
-            >
-              ✨ Study Up ✨
-            </a>
+              <a
+                href="#"
+                className="flex-none rounded-full px-3.5 py-1 text-sm font-semibold text-black border-purple-400  border-2 shadow-sm hover:bg-purple-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900"
+              >
+                ✨ Pay ✨
+              </a>
+            </p>
           </div>
           <div className="flex flex-1 justify-end">
             <button
